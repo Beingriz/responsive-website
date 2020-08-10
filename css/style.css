@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500;900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-.navbar{
+.navbar {
     display: flex;
     text-align: center;
     justify-content: center;
     position: sticky;
     top: 0;
     cursor: pointer;
-    }
+}
     .navlist{
         width: 50%;
         display: flex;
@@ -57,22 +59,20 @@
     border-radius: 10px;
 }
 
-.background{
-    background: rgba(0,0,0,0.7) url('../img/riz.jpg');
-    background-size:cover;
-    background-blend-mode : darken;
-      
-} 
-.boxmain{
-    height: 60%;
+.background {
+    background: rgba(0,0,0,1.2) url('https://source.unsplash.com/randome/200x200');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.boxmain {
+    height: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: 50%;
+    max-width: 99%;
     margin: auto;
-
 }
 .firstsection{
     height: 100vh;
@@ -84,16 +84,16 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 }
-.secondhalf{
-    width: 30%;
+.secondhalf {
+    width: 63%;
 }
-.secondhalf img{
-width: 30%;
-padding: 2px;
-border: 2px solid white;
-border-radius: 150px;
-display: block;
-margin: auto;
+.secondhalf img {
+    width: 36%;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 110px;
+    display: block;
+    margin: auto;
     
 }
 .textbig{
@@ -124,33 +124,24 @@ font-size: 40px;
 }
 
 
-.secright {
-    height: 200px;
+.section {
+    height: 205px;
     display: flex;
-    text-align: center;
-    justify-content: center;
-    max-width: 60%;
-    margin: auto;
-    padding-left: -13%;
-}
-.paras{
-    padding: 10px;
-}
-.secleft{
-    height: 500px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
     max-width: 80%;
     margin: auto;
-    flex-direction: row-reverse;
+    padding-left: -2%;
+    font-family: font-family: 'Recursive', sans-serif;;
 }
-.tumbnial{
-    width: 80%;
-
+.left {
+   flex-direction: row-reverse;
 }
-.tumbnial img {
-    width: 81%;
-    border: 3px solid gray;
-    border-radius: 50%;
+.paras {
+    padding: 13px 38px;
+}
+.tubmnail{
+    width: 25%;
+}
+.tubmnail img{
+        border: 2px solid white;
+        border-radius: 39px;
 }
