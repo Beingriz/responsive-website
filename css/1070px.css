@@ -1,0 +1,91 @@
+@media only screen and (max-width:992px){
+    .navlist{
+        flex-direction: column;
+        background-color: transparent;
+        padding-top: 0px;
+    }
+    .navlist li{
+        padding: 8px 6px;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 368px;
+        transition: 0.7s ease-in-out;
+        position: sticky;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .line{
+        width: 30px;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    .h-nav{
+        height: 55px;
+        position: sticky;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .boxmain{
+        flex-direction: column-reverse;
+        padding-top: 26px;
+    }
+    .section{
+        flex-direction: column-reverse;
+       
+    }
+    .tumbnial{
+        margin: auto;
+        padding: 0;
+        
+    }
+ 
+    .paras{
+        padding: 1px;
+    }
+    .form{
+        width: 80%;
+    }
+    .Secheading{
+        text-align: center;
+        font-size: 25px;
+
+    }
+    .secondhalf img {
+        float: left;
+            border: 1px solid white;
+            border-radius: 7px;
+        }
+    .textbig{
+        font-size: 24px;
+        text-align: center;
+    }
+    .navbar li a{
+        font-size: 21px;
+    }.logo img{
+        width: 65px;
+    }.navbar li a:hover{
+        font-size: 21px;
+        color: skyblue;
+    }
+    .tagline{
+        font-size: 12px;
+    font-size-adjust: initial;
+    /* font-family: cursive; */
+    font-style: italic;
+    font-family: serif;
+    align-items: center;
+    text-align: center;
+    background: #bdd0fd;
+    color: black;
+    width: 184px;
+    border-radius: 5px;
+    margin: auto;
+    font-weight: bold;
+    }
+}

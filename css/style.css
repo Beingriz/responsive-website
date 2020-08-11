@@ -10,12 +10,13 @@ html{
 .navbar {
     display: flex;
     text-align: center;
-    /* justify-content: center; */
-    /* align-content: center; */
+    position: sticky;
+    justify-content: center; 
+    align-content: center;
     cursor: pointer;
     font-size: 20px;
     background: rgba(0,0,0,0.1) url(../img/menu-bg.jpg);
-    position: sticky;
+    height: 75px;
 }
     .navlist{
         width: 70%;
@@ -102,13 +103,12 @@ flex-direction: column;
     width: 63%;
 }
 .secondhalf img {
-    width: 23%;
-    padding: 8px;
-    border: 3px solid white;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    margin-left: 86px;
+    float: right ;
+        margin: 5px;
+        padding: 0px;
+        width: 300px;
+        border: 1px solid white;
+        border-radius: 5px;
 }
 .textbig {
     font-size: 40px;
@@ -270,151 +270,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
    
 }
-@media only screen and (max-width:1077px){
-    .navlist{
-        flex-direction: column;
-        background-color: transparent;
-        padding-top: 0px;
-    }
-    .navlist li{
-        padding: 8px 6px;
-    }
-    .navbar{
-        flex-direction: column;
-        height: 368px;
-        transition: 0.7s ease-in-out;
-    }
-    .rightnav{
-        text-align: center;
-    }
-    .burger{
-        display: block;
-    }
-    .line{
-        width: 30px;
-        border-radius: 20px;
-        margin: 5px;
-    }
-    .h-nav{
-        height: 64px;
-    }
-    .v-class{
-        opacity: 0;
-    }
-    .boxmain{
-        flex-direction: column-reverse;
-        padding-top: 26px;
-    }
-    .section{
-        flex-direction: column-reverse;
-       
-    }
-    .tumbnial{
-        margin: auto;
-        padding: 0;
-    }
-    .paras{
-        padding: 1px;
-    }
-    .form{
-        width: 80%;
-    }
-    .Secheading{
-        text-align: center;
-        font-size: 25px;
 
-    }.secondhalf img{
-        margin: auto;
-    }.textbig{
-        font-size: 24px;
-        text-align: center;
-    }.navbar li a{
-        font-size: 21px;
-    }.logo img{
-        width: 65px;
-    }.navbar li a:hover{
-        font-size: 21px;
-        color: skyblue;
-    }
-}
-@media only screen and (max-width:400px){
-.burger{
-    margin-top: 0;
-}
-.line{
-    width: 25px;
-    border-radius: 25px;
-    margin-right: 10px;
-    padding: -5px;
-}  
-.logo img{
-    width: 45px;
-    margin-top: 5px;
-}
-.rightnav{
-    width: auto;
-    padding: 2px;
-    border-radius: 1px;
-    margin: 6px;
-    font-size: 8px;
-}
-.navlist li a{
-    font-size: 15px;
-    padding: 0px;
-    margin: 0px;
-}
-.btn{
-    font-size: 15px;
-    width: 66px;
-    padding: 0px;
-    border-radius: 4px;
-}
-.h-nav{
-    height: 41px;
-}
-.boxmain{
-    padding: 10px 2px 10px 1px;
-    max-width: 100%;
-}
-.textbig{
-    font-size: 18px;
-}
-.textsmall{
-    font-size: 10px;
-}
-.tagline{
-    font-size: 12px;
-    text-align: center;
-}
-.secondhalf img{
-    width: 90%;
-    border-radius: 10px;
-    border: 1px solid white;
-    padding:0px;
-    margin: auto;
-}
-.section{
-    width: 100%;
-    padding: 2px;
-    margin: auto;
-}
-.tumbnial{
-   margin: auto;
-}
-.tumbnial img{
-    width: 250px;
-    height: 150px;
-    border: 1px solid black;
-    border-radius: 15px;
-}
-.Secheading{
-    font-size: 18px;
-}
-.secsubtext{
-    font-size: 15px;
-    color: black;
-}
-}
 
 
 
